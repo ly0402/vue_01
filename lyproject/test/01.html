@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<script src="../lib/axios.min.js"></script>
+		<style>
+			#box{
+				width:400px;
+				height:200px;
+				border:2px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<button onclick="request();">请求数据</button>
+		<div id="box">
+			
+		</div>
+		<script>
+
+			function request(){
+				// axios.get('./01.php?')
+				//   .then(function (response) {
+				//     console.log(response);
+				//     document.getElementById('box').inne	rHTML=data.data;
+				//   })
+				//   .catch(function (error) {
+				//     console.log(error);
+				// });
+
+			 	//axios({
+				//   method: 'post',
+				//   url: '/01.php',
+				//   data: {
+				//     firstName: 'Fred',
+				//     lastName: 'Flintstone'
+				//   }
+				// });
+
+ 				// 	  method:'get',
+				// 	  url:'./01.php',
+				// 	  responseType:'stream'
+				// 	})
+				// 	  .then(function(response) {
+				// 	  response.data.pipe(fs.createWriteStream('ada_lovelace.jpg'))
+				// });
+			}
+			
+		</script>
+	</body>
+</html>
